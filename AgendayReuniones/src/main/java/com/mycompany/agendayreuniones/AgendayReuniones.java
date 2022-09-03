@@ -152,8 +152,31 @@ public class AgendayReuniones {
                      break;
                  }
               
-                 break;         
+                 break;
+                 
+             case 3:
+
+                  for (String key: agenda.keySet()) {
+                      System.out.println(key);
+
+                      agenda.get(key).forEach(sa -> {
+
+                       sa.mostrar(sa.getNumeroDias(), sa.getNumeroMes(), sa.getNumeroAnno(), sa.getReuniones());
+                 });
+
+                   System.out.println("-----------------------------------\n");
+                  }
+                  break;
          }
+        System.out.println("-----------------------------------");
+        System.out.println("Menu de operaciones");
+        System.out.println("1 - Insertar a la agenda");
+        System.out.println("2 - Mostrar agenda de persona");
+        System.out.println("3 - Mostrar toda la agenda");
+        System.out.println("4 - Salir");
+
+        System.out.println("-----------------------------------\n");
+         
          }while(caso!=4);
          
       
