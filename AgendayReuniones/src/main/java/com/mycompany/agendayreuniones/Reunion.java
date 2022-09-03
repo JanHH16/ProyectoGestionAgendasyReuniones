@@ -81,12 +81,13 @@ public class Reunion {
     }
 
      
-     
+    // metodo para corroborar que la hora de inicio de la actividad sea valida
     public  boolean seguridad(int hi, int mi,int hf, int mf){
         
         return (hi>=0 && hi<=23) && (mi>=0 && mi<=60) && (hf>=0 && hf<=23) && (mf>=0 && mf<=60);
     }
     
+    // metodo para corroborar que la hora final de la actividad sea mayor a la hora inicial
     public boolean seguridad(int hi, int hf){
         
         return (hf>=hi);

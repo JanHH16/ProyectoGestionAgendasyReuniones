@@ -100,11 +100,13 @@ public class Dias {
         
     }
     
+    // metodo para corroborar que el dia y mes de la actividad ingresado sea valido
     public  boolean seguridad(int dia, int mes){
         
         return (dia>0 && dia<31) && (mes>0 && mes<13);
     }
     
+    // metodo para corroborar que el año de la actividad ingresado sea valido
     public  boolean seguridad(int anno){
         
         return anno>=2022;

@@ -15,6 +15,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Random;
 
+//
 public class AgendayReuniones {
 
    /**
@@ -56,7 +57,7 @@ public class AgendayReuniones {
              creaMenu();
              caso = Integer.parseInt(lector.readLine());
              
-         
+         // switch para poder hacer el menu funcional
          switch(caso){
              
              
@@ -158,6 +159,7 @@ public class AgendayReuniones {
       
     }
     
+        // metodo para crear el menu en consola
     public static void creaMenu(){
         
         System.out.println("-----------------------------------");
@@ -169,6 +171,7 @@ public class AgendayReuniones {
         System.out.println("-----------------------------------\n");
     }
     
+    // metodo para tener datos iniciales como lo pedian, SIA 1.4
     public static void llenr_con_datos(HashMap<String,ArrayList<Dias>>agenda){
         
         Random rand = new Random();
