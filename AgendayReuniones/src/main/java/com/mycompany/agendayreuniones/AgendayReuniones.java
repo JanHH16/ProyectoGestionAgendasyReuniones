@@ -168,14 +168,7 @@ public class AgendayReuniones {
                   }
                   break;
          }
-        System.out.println("-----------------------------------");
-        System.out.println("Menu de operaciones");
-        System.out.println("1 - Insertar a la agenda");
-        System.out.println("2 - Mostrar agenda de persona");
-        System.out.println("3 - Mostrar toda la agenda");
-        System.out.println("4 - Salir");
-
-        System.out.println("-----------------------------------\n");
+        
          
          }while(caso!=4);
          
@@ -186,11 +179,12 @@ public class AgendayReuniones {
     public static void creaMenu(){
         
         System.out.println("-----------------------------------");
-        
         System.out.println("Menu de operaciones");
         System.out.println("1 - Insertar a la agenda");
-        System.out.println("2 - Mostrar agenda de personal");
-        
+        System.out.println("2 - Mostrar agenda de persona");
+        System.out.println("3 - Mostrar toda la agenda");
+        System.out.println("4 - Salir");
+
         System.out.println("-----------------------------------\n");
     }
     
