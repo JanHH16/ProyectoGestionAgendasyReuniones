@@ -11,11 +11,11 @@ package com.mycompany.agendayreuniones;
  */
 public class Reunion {
     
-    String actividad;
-    int horaInicio;
-    int minInicio;
-    int horaFinal;
-    int minFinal;
+    private String actividad;
+    private int horaInicio;
+    private int minInicio;
+    private int horaFinal;
+    private int minFinal;
     
  
     public Reunion(String actividad,int horaInicio, int minInicio, int horaFinal, int minFinal) {
